@@ -5,59 +5,13 @@ import os
 
 # Define the column mappings
 column_list_mapping = {
-    'HIDDENGEMS': 'Base List',
-    'ABSENTEE': 'Base List',
-    'HIGH EQUITY': 'High Equity',
     'DOWNSIZING': 'Downsizing',
-    'PRE-FORECLOSURE': 'Foreclosure',
-    'VACANT': 'Base List',
     '55+': '55+',
-    'ESTATE': 'Pre-Probate',
-    'INTER FAMILY TRANSFER': 'Interfamily Transfer',
-    'DIVORCE': 'Divorce - Propstream',
-    'TAXES': 'Base List',
-    'PROBATE': 'Probate',
-    'LOW CREDIT': 'Base List',
-    'CODE VIOLATIONS': 'Code Violations',
-    'BANKRUPTCY': 'Bankruptcy',
-    'LIENS CITY/COUNTY': 'Liens-Recorder',
-    'LIENS OTHER': 'Liens-Recorder',
-    'LIENS UTILITY': 'Special Assessments',
-    'LIENS HOA': 'Special Assessments',
-    'LIENS MECHANIC': 'Special Assessments',
-    'POOR CONDITION': 'Driving For Dollars',
-    'EVICTION': 'Evictions',
-    '30-60 DAYS': 'Late Mortgage',
-    'JUDGEMENT': 'Base List',
-    'DEBT COLLECTION': 'Base List'
 }
 
 column_abbreviation_mapping = {
-    'HIDDENGEMS': '8020 Hidden Gems List',
-    'ABSENTEE': '8020 Absentee List',
-    'HIGH EQUITY': '8020 High Equity List',
     'DOWNSIZING': '8020 Downsizing List',
-    'PRE-FORECLOSURE': '8020 Pre-Foreclosure List',
-    'VACANT': '8020 Vacant List',
-    '55+': '8020 55+ List',
-    'ESTATE': '8020 Estate List',
-    'INTER FAMILY TRANSFER': '8020 Inter-family Transfer List',
-    'DIVORCE': '8020 Divorce List',
-    'TAXES': '8020 Taxes List',
-    'PROBATE': '8020 Probate List',
-    'LOW CREDIT': 'Base List',
-    'CODE VIOLATIONS': '8020 Code Violations List',
-    'BANKRUPTCY': '8020 Bankruptcy List',
-    'LIENS CITY/COUNTY': '8020 Liens List',
-    'LIENS OTHER': '8020 Liens List',
-    'LIENS UTILITY': '8020 Liens List',
-    'LIENS HOA': '8020 Liens List',
-    'LIENS MECHANIC': '8020 Liens List',
-    'POOR CONDITION': '8020 Poor Conditions List',
-    'EVICTION': '8020 Evictions List',
-    '30-60 DAYS': '8020 30-60 days List',
-    'JUDGEMENT': '8020 Judgement List',
-    'DEBT COLLECTION': '8020 Debt Collection List'
+    '55+': '8020 55+ List'
 }
 
 def process_file(file):
